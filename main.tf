@@ -126,7 +126,7 @@ resource "azurerm_virtual_machine" "vm" {
   os_profile_windows_config {
   }
   tags ={
-Environment="${var.environment[0]}"
+Environment="${var.environment1[0]}"
 }
   
   
