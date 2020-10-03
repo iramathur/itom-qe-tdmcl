@@ -106,4 +106,10 @@ variable "admin_password" {
 variable "dummy" {
 
 }
+variable "environment" {
+  description = "tag name for vm"
+  type="list"
+	  default=["test-vm-id-1", "test-vm-id-2"]
+}
+
 
